@@ -42,7 +42,7 @@
             android:layout_marginRight="50dp"
             android:layout_weight="1"
             android:backgroundTint="#11DA03"
-            android:text="Logar" />
+            android:text="Entrar" />
         <Button
             android:id="@+id/btCadastrar"
             android:layout_width="0dp"
