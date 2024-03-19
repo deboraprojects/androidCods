@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 val sysSenha = 123456
 
                 // Converte o valor para inteiro e verifica se é igual ao valor da variável sysSenha
-                if (etSenha.text.toString().toInt() == sysSenha) {
+                if (etSenha.text.toString().toInt() == sysSenha && etUsuario.text.toString() == sysUser) {
                     //Exibe a mensagem de bem vindo
                     Toast.makeText(this, "Seja bem vindo " + etUsuario.text.toString(), Toast.LENGTH_LONG).show()
                 } else {
